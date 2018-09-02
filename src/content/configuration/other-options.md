@@ -44,7 +44,9 @@ As it happens, the AMD support in webpack ignores the defined name anyways.
 
 `boolean`
 
-Fail out on the first error instead of tolerating it. By default webpack will log these errors in red in the terminal, as well as the browser console when using HMR, but continue bundling. To enable it:
+Fail out on the first error instead of tolerating it. By 
+
+webpack will log these errors in red in the terminal, as well as the browser console when using HMR, but continue bundling. To enable it:
 
 ```js
 module.exports = {
@@ -99,6 +101,8 @@ Expose custom values into the loader context.
 `number`
 
 Limit the number of parallel processed modules. Can be used to fine tune performance or to get more reliable profiling results.
+
+default: 100
 
 
 ## `profile`
